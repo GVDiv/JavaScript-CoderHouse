@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    background-color: #333;
+    border-radius: 20px;
+} img{
+    width: 90%;
+    padding: 10px 10px;
+}
+
+.control{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #333;
+
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: tomato;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.barras_vida{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.vida_ryu{
+    width: 250px;
+    height: 25px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: green;
+    color: khaki;
+    font-weight: bolder;
+}
+.vida_ken{
+    width: 250px;
+    height: 25px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: green;
+    color: khaki;
+    font-weight: bolder;
+}
+.round{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: khaki;
+    position: absolute;
+}
+.contador{
+    display: block;
+    font-size: 16px;
+}
